@@ -1,0 +1,25 @@
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+.boxes{
+    display: flex;
+    width:auto;
+    height: 100px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    margin-top: 1.5rem;
+}
+
+@keyframes color{
+    25%{background-color: green;}
+    50%{background-color: red;}
+}
