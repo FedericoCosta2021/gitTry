@@ -23,5 +23,6 @@
     25%{background-color: green;}
     50%{background-color: red;}
 }
-line
-line2
+
+.line{background-color: green;}
+.line2{background-color: green;}
